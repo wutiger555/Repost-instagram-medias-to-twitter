@@ -183,10 +183,10 @@ if __name__ == '__main__':
     ins.getInsStory(target_username='')
 
     twitter = Twitter(
-        CONSUMER_KEY='',
-        CONSUMER_SECRET='',
-        ACCESS_TOKEN='',
-        ACCESS_TOKEN_SECRET=''
+        CONSUMER_KEY='sTTKgaCBhdnBokC7kamv0pG8Q',
+        CONSUMER_SECRET='v31Yvi9tH0IFHE6mPFpFboShLnjzpWcFmu6QlTLEKO1ueMbV19',
+        ACCESS_TOKEN='345107068-kacviFDH4W9bsGbwOAzL4DCFxZaN5eJSFvlvH1f3',
+        ACCESS_TOKEN_SECRET='h1bMOzta0u3IsiZfc6oC0nVJ574ly732PZtyjK5SvniTy'
     )
 
     video_media_ids = twitter.uploadVid()
